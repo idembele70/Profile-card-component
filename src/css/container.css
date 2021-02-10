@@ -1,0 +1,32 @@
+.container {
+    width:21.875rem ;
+    height:23.4375rem ;
+    background: url('../assets/images/bg-pattern-card.svg') top center no-repeat, red;
+    border-radius: 5%;
+    display: grid;
+    justify-items: center;
+    grid-template:1fr repeat(2,90px) / 1fr;
+}
+
+.container-picture {
+    margin-top: 5.5rem ;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    border: 6px solid white;
+}
+
+.container-title {
+    font-size: 1rem;
+}
+
+.container-title::after {
+    content: "26";
+    margin-left: 0.5625rem;
+    opacity: 0.4;
+}
+
+/* 185px
+    90px
+    90px
+*/
