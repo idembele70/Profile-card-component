@@ -3,6 +3,7 @@
 :root {
     --primary-color: hsl(228, 45%, 44%);
     --med-fs : 1em;
+    --max-fs : 1.125rem;
 }
 
 body {
@@ -16,4 +17,5 @@ body {
     justify-content: center;
     background: #19a1ad;
     background-size: cover;
+    font-family: 'Kumbh Sans', sans-serif;
 }
