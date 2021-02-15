@@ -6,6 +6,7 @@
     display: grid;
     justify-items: center;
     grid-template:1fr repeat(2,90px) / 1fr;
+    z-index: 2;
 }
 
 .container-picture {
@@ -73,4 +74,15 @@ h3:nth-last-child(5) {
     grid-area: 2 / 2/ 3 /3;
 align-self: flex-start;
 /* color: chocolate; */
+}
+
+[class*="bg-"] {
+    position: absolute;
+}
+
+.bg-bottom{
+    display: inline-block;
+    max-width: 100%;
+    bottom: -80%;
+    right:-25%;
 }

@@ -10,18 +10,14 @@ body {
     font-size: 11px;
     text-align: center;
     margin: 0 auto;
-    height: 100vh;
-    max-height: 720px;
-    width: 100vw;
+    /* height: 100vh; */
+    height: 720px;
+    /* width: 100vw; */
     max-width: 1440px;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: #19a1ad right; */
-    background: 
-    url('../assets/images/bg-pattern-bottom.svg') no-repeat fixed,
-    url('../assets/images/bg-pattern-top.svg') no-repeat fixed, #19a1ad;
-    background-position: 43.75rem 370px, -300px -500px;
-    ;
+    background:  #19a1ad;
+    background-clip: padding-box;
     font-family: 'Kumbh Sans', sans-serif;
 }
