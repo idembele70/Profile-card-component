@@ -1,3 +1,5 @@
+/* Card */
+
 .container {
     width:21.875rem ;
     height:23.4375rem ;
@@ -8,7 +10,7 @@
     grid-template:1fr repeat(2,90px) / 1fr;
     z-index: 2;
 }
-
+/* hero image */
 .container-picture {
     margin-top: 5.5rem ;
     width: 6rem;
@@ -48,15 +50,12 @@ h3, .container-name-age h2::after {
 
 [class*=social] h2:nth-last-child(6) {
     grid-area: 1 / 2 / 2 / 3 ;
-    /* color: yellowgreen; */
 }
 [class*=social] h2:nth-last-child(4) {
-    /* color: blue; */
     grid-column: 3 /4 ;
     grid-row: 1 / 2;
 }
 [class*=social] h2:nth-last-child(2) {
-    /* color: red; */
     grid-area: 1 / 4 / 2 / 5 ;
 }
 h3:nth-last-child(1) {
@@ -72,11 +71,12 @@ h3:nth-last-child(5) {
     align-self: flex-start;
 }
 
+/* Background */
 [class="bg"] {
     position: absolute;
     overflow: hidden;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     user-select: none;
 }
 
@@ -91,21 +91,6 @@ h3:nth-last-child(5) {
     top: 50%;
     left: 45%;
 }
-@media screen and (max-width:1024px){
-
-    .container-social-information {
-        grid-template: repeat(2,1fr) / 10px repeat(3,1fr) 10px;
-    }
-
-    /* .bg-top {
-    bottom: 65%;
-    }
-
-    .bg-bottom{
-        top:33%;
-    } */
-}
-
 
 @media screen and (max-width:375px){
     .container {
@@ -123,12 +108,3 @@ h3:nth-last-child(5) {
         top:45%;
     }
 }
-
-
-/*  
-
-411 X 823
-768 X 1024
-1024 X 1366
-
-*/
