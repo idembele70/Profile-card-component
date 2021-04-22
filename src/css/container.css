@@ -9,6 +9,7 @@
     justify-items: center;
     grid-template:1fr repeat(2,90px) / 1fr;
     z-index: 2;
+    min-width: calc(320/16)rem;
 }
 /* hero image */
 .container-picture {
