@@ -8,8 +8,8 @@
     display: grid;
     justify-items: center;
     grid-template:1fr repeat(2,90px) / 1fr;
-    z-index: 2;
-    min-width: 320px;
+    z-index: 2;/* 
+    min-width: 320px; */
 }
 /* hero image */
 .container-picture {
